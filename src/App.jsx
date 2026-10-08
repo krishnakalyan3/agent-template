@@ -634,6 +634,7 @@ function Ingredient({
       </label>
       <textarea
         id={label.toLowerCase()}
+        aria-label={label}
         rows={5}
         required
         maxLength={12000}
